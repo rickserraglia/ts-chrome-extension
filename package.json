@@ -36,6 +36,19 @@
 	"manifest": {
 		"host_permissions": [
 			"https://*/*"
+		],
+		"permissions": [
+			"scripting"
+		],
+		"web_accessible_resources": [
+			{
+				"matches": [
+					"<all_urls>"
+				],
+				"resources": [
+					"tabs/*"
+				]
+			}
 		]
 	}
 }

@@ -21,7 +21,7 @@ const tabs: Tab[] = [
 	{ value: 'settings', label: 'Settings', Content: () => <Settings /> },
 ];
 
-function IndexPopup() {
+function IndexTab() {
 	return (
 		<div className="flex flex-1 justify-center max-h-screen">
 			<Tabs defaultValue={tabs[0].value}>
@@ -44,4 +44,4 @@ function IndexPopup() {
 	);
 }
 
-export default IndexPopup;
+export default IndexTab;
